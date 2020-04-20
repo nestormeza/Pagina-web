@@ -1,5 +1,4 @@
-# una variable almacena un valor
-
+# una variable almacena un valors
 texto = 'Master del curso de python'
 texto2 = 'con Nestor Rosas'
 num = 10
@@ -31,3 +30,7 @@ print('hola {} + {}'.format(texto,texto2))
 
 #saber el tipo de datos
 print(type(texto))
+
+#convertir  tipo de datos
+numero = str(54)
+print ('concatenar {} {}'.format(texto,numero))
